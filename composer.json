@@ -1,0 +1,21 @@
+{
+    "name": "couchbase/yii2-couchbase",
+    "description": "CouchBase ActiveRecord",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "nick cuper",
+            "email": "55dmitrii@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "nickcuper\\couchbase\\": ""
+        }
+    }
+}
